@@ -1,6 +1,6 @@
-# NeuroPpred-MoECL
+# NeuroMESH
 
-NeuroPpred-MoECL is a multimodal model for neuropeptide prediction. This repository contains the implementation published as **NeuroPpred-MoECL**. It combines residue-level ProtT5 representations with eight-state secondary-structure (SS8) features and uses three complementary experts with sample-level soft routing.
+NeuroMESH is a multimodal model for neuropeptide prediction. This repository contains the implementation published as **NeuroPpred-MoECL**. It combines residue-level ProtT5 representations with eight-state secondary-structure (SS8) features and uses three complementary experts with sample-level soft routing.
 
 ## Model overview
 
