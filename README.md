@@ -30,7 +30,20 @@ The ProtT5 embedding arrays and SS8 FASTA feature files expected by the scripts 
 
 ## Requirements
 
-The code imports Python packages from PyTorch, NumPy, pandas, scikit-learn, Matplotlib, Biopython, and `termcolor`. Use a Python environment with compatible versions of these packages and install a PyTorch build suited to your CPU or CUDA setup. The repository does not currently provide a pinned `requirements.txt` or environment file.
+The experiments were conducted using the following environment:
+
+```text
+python=3.8.19
+dgl=2.3.0+cu121
+networkx=3.1
+numpy=1.24.4
+scikit-learn=1.3.2
+pytorch=2.2.2
+tqdm=4.67.1
+```
+
+A CUDA-compatible GPU is recommended for model training and inference.
+
 
 ## Input features
 
